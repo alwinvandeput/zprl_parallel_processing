@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSH" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <HEAD>
+    <NAME>Z_PRL_TASK_RFC</NAME>
+    <TYPE>RF</TYPE>
+    <DISPLAY_NAME>Z_PRL_TASK_RFC</DISPLAY_NAME>
+    <MODIFIER>AVANDEPUT</MODIFIER>
+    <MODDATE>2022-08-04</MODDATE>
+    <MODTIME>20:23:22</MODTIME>
+    <SRCSYSTEM>S4A</SRCSYSTEM>
+    <AUTHOR>AVANDEPUT</AUTHOR>
+    <DEVCLASS>$ZPRL</DEVCLASS>
+   </HEAD>
+   <USOBX>
+    <USOBX>
+     <NAME>Z_PRL_TASK_RFC</NAME>
+     <TYPE>RF</TYPE>
+     <OBJECT>S_RFC</OBJECT>
+     <MODIFIER>AVANDEPUT</MODIFIER>
+     <MODDATE>2022-08-04</MODDATE>
+     <MODTIME>20:23:22</MODTIME>
+     <OKFLAG>X</OKFLAG>
+    </USOBX>
+   </USOBX>
+   <USOBX_EXT>
+    <item>
+     <OBJECT>S_RFC</OBJECT>
+     <TTEXT>Bevoegdheidscontrole voor RFC-toegang</TTEXT>
+     <OCLSS>AAAB</OCLSS>
+     <MODIFIER>AVANDEPUT</MODIFIER>
+     <MODDATE>2022-08-04</MODDATE>
+     <MODTIME>20:23:22</MODTIME>
+     <OKFLAG>X</OKFLAG>
+     <DEVCLASS>SRCX</DEVCLASS>
+     <PS_POSID>BC-MID-RFC</PS_POSID>
+     <CI_TEXT>Controleren</CI_TEXT>
+     <CH_TEXT>Controleren</CH_TEXT>
+     <PR_TEXT>Nee</PR_TEXT>
+     <EXCEP>3</EXCEP>
+     <EXCEP_TX>Okay</EXCEP_TX>
+     <EXCEP_ICON>@08@</EXCEP_ICON>
+    </item>
+   </USOBX_EXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Parallel process</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZPRL_PARALLEL_PROCESSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZPRL_PARALLEL_PROCESS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_PRL_TASK_RFC</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Task RFC</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>CLASS_NAME</PARAMETER>
+       <TYP>SEOCLSNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>ID</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>OBJECT_SELECTION_RNG_LIST</PARAMETER>
+       <DBSTRUCT>ZPRL_OBJECT_SELECTION_RNG</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RESULT_LIST</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CLASS_NAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Object Type Name</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ID</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OBJECT_SELECTION_RNG_LIST</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RESULT_LIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

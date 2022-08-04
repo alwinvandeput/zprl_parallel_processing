@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZPRL_DEMO2_OBJECT_DO_MASS_PRC</NAME>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Massa verwerking demo objecten</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>DMOBCNT</KEY>
+     <ENTRY>Demo objecten aantal</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>FREETHR</KEY>
+     <ENTRY>Min. vrije werkprocessen aant.</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>MAXTHR</KEY>
+     <ENTRY>Max. parallelle taken aantal</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PARALL</KEY>
+     <ENTRY>Verwerk paralllel</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>THROBJ</KEY>
+     <ENTRY>Selecties per taak aantal</ENTRY>
+     <LENGTH>38</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>R</ID>
+       <ENTRY>Mass process demo objects</ENTRY>
+       <LENGTH>25</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>DMOBCNT</KEY>
+       <ENTRY>Demo objects total number</ENTRY>
+       <LENGTH>33</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>FREETHR</KEY>
+       <ENTRY>Min. free work process count</ENTRY>
+       <LENGTH>36</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>MAXTHR</KEY>
+       <ENTRY>Max. parallel task count</ENTRY>
+       <LENGTH>32</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>PARALL</KEY>
+       <ENTRY>Process parallel</ENTRY>
+       <LENGTH>24</LENGTH>
+      </item>
+      <item>
+       <ID>S</ID>
+       <KEY>THROBJ</KEY>
+       <ENTRY>Task selections count</ENTRY>
+       <LENGTH>29</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

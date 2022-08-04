@@ -1,0 +1,3 @@
+FUNCTION-POOL ZPRL_PARALLEL_PROCESS.        "MESSAGE-ID ..
+
+* INCLUDE LZPRL_PARALLEL_PROCESSD...         " Local class definition
